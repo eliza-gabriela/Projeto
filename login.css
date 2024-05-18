@@ -1,0 +1,34 @@
+.popup{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(17, 47, 118, 0.75);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999999999999999999;
+}
+.tituloPopup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corpoPopup{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: inherit;
+    background-color: #ddd;
+    padding: 5px;
+}
+.rodapePopup{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: inherit;
+    background-color: #aaa;
+    border-radius: 0px 0px 5px 5px;
+}
